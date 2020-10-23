@@ -1,0 +1,25 @@
+.main
+    display grid
+    grid-template-columns repeat(12,1fr)
+.hero,
+.awesome,
+.pricing,
+.stylish,
+.contact
+    grid-column 2 / span 10
+.pricing_wrap
+    grid-column 2 / span 6
+.stylish_text
+    max-width 80%
+.contact_form
+    display grid
+    grid-template-columns repeat(8, 1fr)
+.contact_form-name,
+.contact_form-email,
+.contact_form-subject
+    grid-column 1 / span 4
+.contact_form-message
+    grid-row 1 / 4
+    grid-column 5 / span 4
+.footer_socialMedia
+    max-width 50%

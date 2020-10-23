@@ -1,0 +1,79 @@
+@import './lib/_var'
+.header
+    justify-content space-between
+    align-items center
+.header_brand
+    margin-left 5rem
+.header_nav
+    display flex
+    position relative
+    background none
+    padding 0
+    ul
+        display flex
+    a
+        font-size font_size_paragraph
+.header_btn_navOpen, .header_btn_navClose
+    display none
+.hero
+    grid-template-rows repeat(4, 10rem)
+    grid-template-columns repeat(8, 1fr)
+.hero_img
+    grid-row 1 / 2
+    grid-column 2 / 3
+    margin 0
+    padding 0
+    justify-self flex-start
+    align-self flex-end
+    img
+        max-width 10rem
+.hero_title
+    grid-row 2 / 3
+    grid-column 2 / 6
+    margin 0
+.hero_text
+    grid-row 3 / 4
+    grid-column 2 / 7
+    margin 0
+.hero_button
+    grid-row 4 / 5
+    grid-column 4 / 6
+    margin 0
+    align-self center
+.awesome
+    grid-template-rows repeat(3, auto)
+    grid-template-columns repeat(8, 1fr)
+.pricing_title,
+.pricing_text
+.awesome_wrap,
+.awesome_title,
+.awesome_text,
+.pricing_wrap,
+.contact_title,
+.contact_text,
+.contact_button
+    grid-column 1 / 9
+.awesome_wrap
+    display grid
+    grid-template-columns repeat(3, 1fr)
+    grid-row 3 / 5
+.pricing
+    grid-template-rows repeat(3, auto)
+    grid-template-columns repeat(8, 1fr)
+.pricing_wrap
+    display grid
+    align-items flex-end
+    grid-template-columns repeat(3, 1fr)
+    gap 2rem
+    grid-row 3 / 5
+    width 100%
+    margin 0
+    padding 0 2rem
+.stylish_text
+    max-width 55rem
+    margin 0 auto
+.contact
+    grid-template-rows repeat(3, auto)
+    grid-template-columns repeat(8, 1fr)
+.contact_form
+    grid-column 2 / 8

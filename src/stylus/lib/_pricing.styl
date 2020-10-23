@@ -1,0 +1,46 @@
+.pricing
+    display grid
+    text-align center
+    font-family font_family_one
+    background lighten(color_dark, 95%)
+    font-size font_size_paragraph
+.pricing_title
+    margin 3rem
+.pricing_text
+    margin 0 3rem
+.pricing_wrap
+    display grid
+    width 80%
+    margin 0 auto
+.pricing_item
+    margin 3rem 0
+.pricing_table-title, .pricing_table-value, .pricing_table-time
+    background color_secundary
+    color color_light
+    padding 1rem 2rem
+.pricing_table-value
+    border solid .1rem color_light
+    border-left none
+    border-right none
+    font-size font_size_title + 2rem
+    &::before
+        content '$'
+        font-family font_family_one
+        font-size font_size_paragraph
+        font-weight 400
+.pricing_table-time
+    font-style oblique
+.pricing_table-main
+    border solid .2rem color_primary
+    background color_primary
+    color color_light
+    span
+        display block
+        margin 1rem
+.pricing_table-description
+    background color_light
+    color color_secundary
+    text-transform uppercase
+    li
+        padding 1rem 0
+        border-bottom solid .2rem lighten(color_dark, 95%)
